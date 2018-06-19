@@ -3,8 +3,10 @@
 var imgSearch = document.getElementById("search");
 
 //Get items that will be searched through
-var imgDataTitle = document.querySelectorAll("a[data-caption");
+var imgDataTitle = document.querySelectorAll("a[data-caption]");
 
+
+//Function that takes user input and filters out each image that is related
 imgSearch.addEventListener("keyup", function(filtering){
 
 	let filtered = imgSearch.value.toUpperCase();
